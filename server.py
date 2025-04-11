@@ -52,7 +52,7 @@ BACKUP_DIR = f"{S3_MOUNT_POINT}/backups"
 os.makedirs(BACKUP_DIR, exist_ok=True)
 
 # Initialize database
-db = client["apnacollege-db"]
+db = client["krish-db"]
 users_collection = db["users"]
 
 # Function to backup data to S3
