@@ -1,0 +1,10 @@
+[project]
+name = "docker-testapp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask[all]>=3.1.0",
+    "pymongo>=4.12.0",
+]
