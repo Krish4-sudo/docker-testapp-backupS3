@@ -128,7 +128,7 @@ def setup_periodic_backup():
     
     def backup_thread():
         while True:
-            time.sleep(300)  # Backup every 5 minutes
+            time.sleep(420)  # Backup every 7 minutes (you can change it according to your requirement)
             backup_data()
     
     thread = threading.Thread(target=backup_thread, daemon=True)
